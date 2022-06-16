@@ -3,7 +3,7 @@
  
 int main()
 {
-	char data[100] = "my branch name is master";
+	char data[100] = "my branch name is A";
 	int length = strlen(data);
 	
 	for(int i = 0; i < length; i++)
@@ -11,7 +11,8 @@ int main()
 		printf("%c", data[i]);
 	}
 	
-	printf("branch master\n");
+	printf("branch AAA\n");
 	
 	return 0;
 }
+
